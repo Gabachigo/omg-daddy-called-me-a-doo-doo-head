@@ -1,3 +1,31 @@
 * {
   margin: 0;
 }
+
+@font-face {
+  font-family: 'sf-pro';
+  src: url(Fonts/SFPRODISPLAYREGULAR.OTF)
+  format('opentype');
+}
+
+@font-face {
+  font-family: 'sf-pro-bold';
+  src: url(Fonts/SFPRODISPLAYBOLD.OTF)
+  format('opentype');
+}
+
+@font-face {
+  font-family: 'sf-pro-light';
+  src: url(Fonts/SFPRODISPLAYLIGHT.OTF)
+  format('opentype');
+}
+
+@font-face {
+  font-family: 'sf-pro-ultra-light';
+  src: url(Fonts/SFPRODISPLAYULTRALIGHT.OTF)
+  format('opentype');
+}
+
+a {
+  font-family: 'sf-pro-ultra-light';
+}
