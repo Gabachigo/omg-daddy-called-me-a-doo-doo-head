@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  padding: 0;
 }
 
 @font-face {
@@ -28,8 +29,4 @@
 
 a {
   font-family: 'sf-pro-light';
-}
-
-ul {
-  padding: 0;
 }

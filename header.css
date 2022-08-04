@@ -9,14 +9,19 @@ header img {
   padding-top: 6px;
 }
 
-header a {
-  color: #d6d6d6;
-  text-decoration: none;
-}
-
 header ul {
   text-align: center;
   list-style: none;
+  height: 44px;
+}
+
+header ul li {
+  display: inline;
+}
+
+header ul li a {
+  color: #d6d6d6;
+  text-decoration: none;
 }
 
 @media (max-width: 833px) { 
