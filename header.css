@@ -1,29 +1,39 @@
+/* Header settings */
 header {
-  color: #ffffff;
   background-color: #313132;
+  opacity: 0.99;
   height: 44px;
+  width: 100%;
+  position: fixed;
 }
 
+/* Logo settings */
 header img {
   height: 32px;
   padding-top: 6px;
 }
 
+/* List settings */
 header ul {
   text-align: center;
   list-style: none;
   height: 44px;
 }
 
+/* Item settings(as a group) */
 header ul li {
   display: inline;
 }
 
+/* Individual item properties */
 header ul li a {
   color: #d6d6d6;
   text-decoration: none;
+  padding: 0px 8px;
+  font-size: 14px;
 }
 
+/* Mobile Compatability */
 @media (max-width: 833px) { 
   header img {
     padding-left: 48%;
