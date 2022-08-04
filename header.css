@@ -14,19 +14,19 @@ header a {
   text-decoration: none;
 }
 
-header ul{
+header ul {
   text-align: center;
   list-style: none;
-  
 }
 
-@media (max-width: 833px) {
-  header img{
+@media (max-width: 833px) { 
+  header img {
     padding-left: 48%;
     padding-right: 48%;
+    visibility: visible;
   }
 
-  header a {
-    display: none;
+  header ul a {
+    visibility: hidden;
   }
 }

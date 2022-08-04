@@ -29,3 +29,7 @@
 a {
   font-family: 'sf-pro-light';
 }
+
+ul {
+  padding: 0;
+}
