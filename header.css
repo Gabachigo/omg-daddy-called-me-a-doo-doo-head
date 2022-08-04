@@ -13,3 +13,20 @@ header a {
   color: #d6d6d6;
   text-decoration: none;
 }
+
+header ul{
+  text-align: center;
+  list-style: none;
+  
+}
+
+@media (max-width: 833px) {
+  header img{
+    padding-left: 48%;
+    padding-right: 48%;
+  }
+
+  header a {
+    display: none;
+  }
+}
