@@ -13,20 +13,15 @@ header img {
   padding-top: 6px;
 }
 
-/* List settings */
-header ul {
+/* Nav settings */
+header nav {
   text-align: center;
   list-style: none;
   height: 44px;
 }
 
-/* Item settings(as a group) */
-header ul li {
-  display: inline;
-}
-
 /* Individual item properties */
-header ul li a {
+header nav a {
   color: #d6d6d6;
   text-decoration: none;
   padding: 0px 8px;
@@ -41,7 +36,7 @@ header ul li a {
     visibility: visible;
   }
 
-  header ul a {
+  header nav a {
     visibility: hidden;
   }
 }
