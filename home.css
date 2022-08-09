@@ -1,0 +1,15 @@
+/* General settings */
+#pPhone13 {
+  padding-top: 44px;
+  width: 100%;
+  height: 850px;
+  text-align: center;
+}
+
+/* Background image */
+#pPhone13 {
+  background-image: url(Images/Home/pPhone13.jpg);
+  width: 100%;
+  height: 850px;
+  
+}
