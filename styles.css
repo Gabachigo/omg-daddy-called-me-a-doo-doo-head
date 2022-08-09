@@ -32,3 +32,18 @@
 a {
   font-family: 'sf-pro-light';
 }
+
+h1 {
+  font-family: "sf-pro";
+}
+
+h2 {
+  font-family: "sf-pro";
+  font-size: 50px;
+}
+
+h3 {
+  font-family: "sf-pro-light";
+  font-weight: 500;
+  font-size: 25px;
+}
